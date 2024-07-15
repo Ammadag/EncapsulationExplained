@@ -1,4 +1,4 @@
-package com.example.learningtasks.java;
+package com.example.learningtasks.encapsulationExampleJava;
 
 
 

@@ -1,4 +1,4 @@
-package com.example.learningtasks.tasks
+package com.example.learningtasks.logicBuildingTask
 
 fun main() {
     val bracketsCheck = BracketsCheck()

@@ -1,4 +1,4 @@
-package com.example.learningtasks
+package com.example.learningtasks.encapsulationExample1
 
 
 
@@ -49,11 +49,11 @@ class BankAccount(private var Balance: Double) {
 
 fun main() {
     val account = BankAccount(Balance = 1000.0)
-
     account.deposit(300.0)
     println("Deposited Amount = ${account.getBalance()}")
     account.withdraw(400.0)
     println("withdrawal Amount = ${account.getBalance()}")
     account.getBalance()
     println("Your Balance = ${account.getBalance()}")
+
 }
